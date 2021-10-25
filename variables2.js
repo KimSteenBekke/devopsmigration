@@ -5,5 +5,5 @@ var writeGreeting = function(name)   {
 
 }
 
-writeGreeting("Scott");
-writeGreeting("Allen");
+writeGreeting("Kim Steen");
+writeGreeting("Bekke");
