@@ -1,4 +1,6 @@
-//Branching with Logical Operator "&&" if "roll" is greater than or equal to "2" AND "roll" is lesser than or equal to "3" then console.log "Great roll"//
+// Branching with Operators: //
+// Logical Operators: ">=" (GREATER THAN OR EQUAL TO), "<=" (LESSER THAN) //
+// Comparison Operator: "&&" (AND) //
 
 
 var getDieRoll = function (dieSize) {
@@ -7,6 +9,8 @@ var getDieRoll = function (dieSize) {
 };
 
 var roll = getDieRoll (6);
+
+//if "roll" is GREATER THAN OR EQUAL TO "2" AND "roll" is LESSER THAN OR EQUAL TO "3", then console.log "Great Roll" //
 
 if(roll >= 2 && roll <= 3) {
  console.log("Great roll!");
