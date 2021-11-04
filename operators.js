@@ -1,4 +1,5 @@
-//Branching with Comparison Operator e.g. if roll is equal to "6" then console.log "Great roll!"//
+// Branching with Comparison Operator: //
+// Comparison Operator: "==" (EQUAL TO) //
 
 
 var getDieRoll = function (dieSize) {
@@ -7,6 +8,8 @@ var getDieRoll = function (dieSize) {
 };
 
 var roll = getDieRoll (6);
+
+//if "roll" is EQUAL TO "6" then console.log "Great roll!"
 
 if(roll == 6) {
    console.log("Great roll!");
