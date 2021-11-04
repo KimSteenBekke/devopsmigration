@@ -1,4 +1,6 @@
-//Branching with Logical Operators "!" and "||" if "roll" is NOT equal to "1" OR "roll" is equal to "6" then console.log "Great roll"//
+// Branching with Operators: //
+// Logical Operators: "!" (NOT EQUAL TO), "||" (OR) //
+// Comparison Operator: "==" (EQUAL TO) // 
 
 
 var getDieRoll = function (dieSize) {
@@ -7,6 +9,8 @@ var getDieRoll = function (dieSize) {
 };
 
 var roll = getDieRoll (6);
+
+//if "roll" is NOT EQUAL TO "1" OR "roll" is EQUAL TO "6" then console.log "Great roll"//
 
 if(!(roll == 1 || roll == 6)) {
    console.log("Great roll!");
