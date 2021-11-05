@@ -1,6 +1,6 @@
 /* Operators:
 
-Branching with Operators:
+Branching with Operators and "if/else"-Statements:
 
 Comparison Operator: "==" (EQUAL TO) */ 
 
@@ -12,11 +12,14 @@ var getDieRoll = function (dieSize) {
 
 var roll = getDieRoll (6);
 
-//If "roll" is EQUAL TO "2" then console.log "Snake Eyes!"
+// if "roll" is EQUAL TO "2" then console.log "Snake Eyes!"
 
 if(roll == 2) {
    console.log("Snake Eyes!");
 }
 
+// else then console.log "Loooooser!" 
+
+else(console.log("Loooooser!"))
 
 console.log(roll);
