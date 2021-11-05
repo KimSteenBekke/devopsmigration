@@ -1,6 +1,8 @@
-// Create custom functions with parameters //
+/* Functions: Create custom functions with parameters:
 
-// function "dieSize" defines the number of eyes on the dies through parameters on "var firstDie = getDieRoll1 (10); and "var secondDiee = getDieRoll2 (10);" 
+function "dieSize" defines the number of eyes on the dies through parameters on:
+
+"var firstDie = getDieRoll1 (10);" and "var secondDiee = getDieRoll2 (10);" */
 
 var getDieRoll1 = function(dieSize) {
 

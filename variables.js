@@ -1,7 +1,7 @@
 var x = "Iron";
 var y = "Maiden";
 
-//Enter album name to represent var z//
+// Enter album name to represent "var z"
 
 var z = process.argv[2];
 

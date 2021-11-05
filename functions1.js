@@ -1,4 +1,6 @@
-// Create custom functions //
+/* Functions: 
+
+Create custom functions */
 
 var getDieRoll1 = function() {
 

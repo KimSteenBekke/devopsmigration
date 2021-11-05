@@ -1,5 +1,6 @@
-// Branching with Comparison Operator: //
-// Comparison Operator: "==" (EQUAL TO) //
+/* Operators: 
+
+Branching with Comparison Operator: "==" (EQUAL TO) */
 
 
 var getDieRoll = function (dieSize) {

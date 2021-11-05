@@ -1,4 +1,6 @@
-// Branching with Operators and "if/else" Statements //
+/* Operators:
+
+Branching with Operators and "if/else" Statements */
 
 
 var getDieRoll = function (dieSize) {
@@ -8,7 +10,7 @@ var getDieRoll = function (dieSize) {
 
 var roll = getDieRoll (6);
 
-//if "roll" is EQUAL TO "6" then console.log "Du slog en sekser!"//
+// if "roll" is EQUAL TO "6" then console.log "Du slog en sekser!"
 
 if(roll == 6) {
     
@@ -16,7 +18,7 @@ if(roll == 6) {
 
 }
 
-//else then console.log "Du skal slå sekser!"//
+// else then console.log "Du skal slå sekser!"
 
 else {
     console.log("Du skal slå en sekser!");

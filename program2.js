@@ -1,6 +1,6 @@
 var totalCost = 14.99;
 
-//Enter a number to represent the sizeOfParty//
+// Enter a number to represent the sizeOfParty
 
 var sizeOfParty = process.argv[2];
 
