@@ -1,4 +1,8 @@
-//Local variables are declared inside a function. Global variables are any variables not declared inside a function e.g. "firstDie" and "secondDie" 
+/* Functions:
+
+Local variables are declared inside a function e.g. "var result"
+
+Global variables are any variables not declared inside a function e.g. "var showResult", "var firstDie" and " var secondDie" */
 
 
 var getDieRoll = function(dieSize) {

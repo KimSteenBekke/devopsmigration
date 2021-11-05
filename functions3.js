@@ -1,4 +1,6 @@
-// Create custom functions with repeat request //
+/* Functions:
+
+Create custom functions with repeat request */
 
 var getDieRoll1 = function() {
 
@@ -24,7 +26,8 @@ var x = "total";
     console.log(x);
     console.log(firstDie + secondDie);
 
-// Repeats string "Geeks 4 Geeks 4 five times //
+// Repeats string "Geeks 4 Geeks 4 five times
+
 var y = "Made by:";
     console.log(y);
 
@@ -34,7 +37,8 @@ a = A.repeat(5);
 
 
 
-//Repeats function "sayHi" five times //
+// Repeats function "sayHi" five times
+
 function runFunctionXTimes(callback, interval, repeatTimes) {
     let repeated = 0;
     const intervalTask = setInterval(doTask, interval)
